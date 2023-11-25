@@ -124,3 +124,12 @@ In a "staging" area
 So Git generates a unique SHA-1 hash **(40 character string of hex digits)** for every commit.
 – Refers to commits by this ID rather than a version number.
 
+
+# Git Branch
+
+A branch is a version of the repository that diverges from the main working project. It is a feature available in most modern version control systems. A Git project can have more than one branch. These branches are a pointer to a snapshot of your changes. When you want to add a new feature or fix a bug, you spawn a new branch to summarize your changes. So, it is complex to merge the unstable code with the main code base and also facilitates you to clean up your future history before merging with the main branch.
+
+![3](3.png)
+
+
+
