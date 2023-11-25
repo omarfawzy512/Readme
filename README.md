@@ -1,5 +1,4 @@
-DORA Metrics
-
+**DORA Metrics**
 ========
 
 How To Build:
