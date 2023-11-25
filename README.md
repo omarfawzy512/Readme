@@ -88,3 +88,10 @@ When a file or directory is ignored, it will not be:
 2. reported by commands such as **git status* or **git diff*
 3. staged with commands such as **git add -A*
 
+Git keeps **"snapshots"** of the entire state of the project.
+– Each checkin version of the overall code has a copy of
+each file in it.
+– Some files change on a given checkin, some do not.
+– More redundancy, but faster.
+![Tracking files](1.png)
+
