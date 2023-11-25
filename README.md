@@ -64,7 +64,7 @@ The git remote add command takes two arguments:
 **git remote add origin https://<your-git-service-address>/owner/repository.git**
 
 
-Clone a repository
+## Clone a repository
 
 The git clone command is used to copy an existing Git repository from a server to the local
 machine.
@@ -73,7 +73,7 @@ cd <path where you'd like the clone to create a directory>
 
 **git clone https://github.com/username/projectname.git**
 
-Ignoring files and directories with a .gitignore file
+## Ignoring files and directories with a .gitignore file
 
 how to avoid adding unwanted files (or file changes) in a Git repo. There are several ways
  (global or local .gitignore, .git/exclude) but keep in mind Git is managing content, which means: ignoring
