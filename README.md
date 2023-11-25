@@ -35,3 +35,18 @@ Deploying frequently enables quicker iteration, user feedback, and faster time t
 
 ## Increase Agility
 Continuous deployment enables teams to respond rapidly to changing market demands and customer needs.
+
+
+# Lead Time for Changes
+
+## Automate Deployment Pipelines
+
+Streamline the process from code commit to production, reducing manual handoffs and ensuring smooth delivery.
+
+## Reduce Waste
+
+Identify and eliminate bottlenecks in the software delivery process to minimize lead time and increase efficiency.
+
+### Improve Collaboration
+
+Enable cross-functional teams to work together seamlessly, accelerating the time it takes to bring new features to customers.
