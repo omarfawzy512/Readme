@@ -68,5 +68,5 @@ Regularly evaluate and optimize your development processes to reduce the chance 
 # How to Use DORA Metrics to Drive Continuous Improvement
                       
                                  
-|  Gather relevant metrics and analyze trends to gain insights into your team's performance.| Spot areas for improvement based on data analysis and align them with your strategic goals. |Establish realistic targets and develop action plans to address identified improvement areas.|
+| - Collect and Analyze Data- Gather relevant metrics and analyze trends to gain insights into your team's performance.| Spot areas for improvement based on data analysis and align them with your strategic goals. |Establish realistic targets and develop action plans to address identified improvement areas.|
 |-------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
