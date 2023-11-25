@@ -118,6 +118,6 @@ In a "staging" area
 
 **Commit** which takes the files in the staging area and stores that snapshot permanently to your Git directory.
 
-
+![3](3.png)
 
 
