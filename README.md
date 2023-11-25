@@ -120,4 +120,7 @@ In a "staging" area
 
 ![3](3.png)
 
+**In Git** each user has their own copy of the repo, and commits changes to their local copy of the repo before pushing to the central server.
+So Git generates a unique SHA-1 hash **(40 character string of hex digits)** for every commit.
+– Refers to commits by this ID rather than a version number.
 
