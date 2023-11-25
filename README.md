@@ -1,18 +1,12 @@
 ## Getting started with Git
 
-**Stefan** **Richter** **(DESY,** **MCnet)**
-
-**Why** **version** **control?**
-
-> Combine work of multiple collaborators Understand changes
->
-> Support incremental development Compare and revert to earlier versions
-> Backup
->
-> Parallel versions
->
-> Document development (for other developers and yourself, not for
-> users)
+Git is a free, distributed version control system which allows programmers to keep track of code
+changes, via "snapshots" (commits), in its current state. Utilizing commits allows programmers to
+test, debug, and create new features collaboratively. All commits are kept in what is known as a
+"Git Repository" that can be hosted on your computer, private servers, or open source websites,
+such at Github.
+Git also allows for users to create new "branches" of the code, which allows different versions of
+the code to live alongside each other.
 
 **→** **version** **control** **is** **awesome.** **Use** **it** **all**
 **the** **time.**
