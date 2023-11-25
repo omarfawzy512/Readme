@@ -4,6 +4,9 @@ Unlock the potential of your DevOps team with DORA metrics. Measure deployment f
 
 ## The Four Key Metrics of DORA:
 
+1.Deployment Frequency
+How often are new changes deployed to production? Achieve faster innovation cycles and deliver value to users more frequently.
+
 
 Primary build is supported with gradle. More info in the [wiki](https://github.com/rundeck/rundeck/wiki/Building-and-Testing).
 
