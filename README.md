@@ -22,6 +22,18 @@ versions of the project
 ## Create your first repository, then add and commit files
 At the command line, first verify that you have Git installed:
 On all operating systems:
-git --version
-<mark>git --version</mark>
+
+ **git --version**  
+
+ On UNIX-like operating systems:
+ 
+  **which git**
+  
+After installing Git, configure your username and email address as below . Do this before making a commit.
+– git config --global user.name "Bugs Bunny"
+– git config --global user.email bugs@gmail.com
+Once Git is installed, navigate to the directory you want to place under version control and create
+an empty Git repository:
+
+**git init**
 
