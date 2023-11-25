@@ -93,5 +93,6 @@ Git keeps **"snapshots"** of the entire state of the project.
 each file in it.
 – Some files change on a given checkin, some do not.
 – More redundancy, but faster.
+
 ![Tracking files](1.png)
 
