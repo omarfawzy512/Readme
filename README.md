@@ -26,3 +26,12 @@ Tracking DORA metrics fosters a culture of continuous improvement and collaborat
 
 ## 3- Performance Benchmarking
 Compare your team's performance against industry standards and identify areas for growth and optimization.
+
+
+# Deployment Frequency
+
+## Deliver Value Faster
+Deploying frequently enables quicker iteration, user feedback, and faster time to market.
+
+## Increase Agility
+Continuous deployment enables teams to respond rapidly to changing market demands and customer needs.
