@@ -37,3 +37,7 @@ an empty Git repository:
 
 **git init**
 
+This creates a hidden folder, .git, which contains the plumbing needed for Git to work.
+Next, check what files Git will add to your new repository; this step is worth special care:
+
+**git status**
