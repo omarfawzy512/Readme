@@ -1,4 +1,4 @@
-**Software** **version** **control**
+**Getting started with Git**
 
 **Stefan** **Richter** **(DESY,** **MCnet)**
 
