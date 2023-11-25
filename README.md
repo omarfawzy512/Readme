@@ -2,9 +2,6 @@ DORA Metrics
 
 ========
 
-| omar | Deb | RPM | War |
-|--------|-----|-----|-----|
-
 How To Build:
 =====
 
