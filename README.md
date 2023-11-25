@@ -41,3 +41,16 @@ This creates a hidden folder, .git, which contains the plumbing needed for Git t
 Next, check what files Git will add to your new repository; this step is worth special care:
 
 **git status**
+
+If all files in the list should be shared with everyone who has access to the repository, a single
+command will add everything in your current directory and its subdirectories:
+
+**git add .**
+
+This will "stage" all files to be added to version control, preparing them to be committed in your
+first commit.
+For files that you want never under version control, create and populate a file named .gitignore
+before running the add command.
+Commit all the files that have been added, along with a commit message:
+
+**git commit -m "Initial commit"**
