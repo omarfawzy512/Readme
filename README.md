@@ -8,6 +8,15 @@ such at Github.
 Git also allows for users to create new "branches" of the code, which allows different versions of
 the code to live alongside each other.
 
+**Git has 3 different "areas" for your code:**
+• Working directory: The area that you will be doing all of your work in (creating, editing,
+deleting, and organizing files)
+• Staging area: The area where you will list the changes that you have made to the working
+directory
+• Repository: Where Git permanently stores the changes you have made as different
+versions of the project
+
+
 **→** **version** **control** **is** **awesome.** **Use** **it** **all**
 **the** **time.**
 
