@@ -2,7 +2,7 @@
 
 Unlock the potential of your DevOps team with DORA metrics. Measure deployment frequency, lead time for changes, time to restore service, and change fail rate.
 
-## How To Build:
+## The Four Key Metrics of DORA:
 
 
 Primary build is supported with gradle. More info in the [wiki](https://github.com/rundeck/rundeck/wiki/Building-and-Testing).
