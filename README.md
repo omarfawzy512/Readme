@@ -112,5 +112,12 @@ In a "staging" area
 
 # Basic Git workflow
 
+**Modify** files in your working directory.
+
+**Stage** files, adding snapshots of them to your staging area.
+
+**Commit** which takes the files in the staging area and stores that snapshot permanently to your Git directory.
+
+
 
 
