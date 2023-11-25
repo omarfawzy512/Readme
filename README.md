@@ -67,5 +67,8 @@ Regularly evaluate and optimize your development processes to reduce the chance 
 
 # How to Use DORA Metrics to Drive Continuous Improvement
 
-| ## Collect and Analyze Data | Deb | RPM | War |
-|--------|-----|-----|-----|
+| Collect and Analyze Data | Deb | RPM | War |
+| Gather relevant metrics 
+and analyze trends to gain 
+insights into your team's performance. | Deb | RPM | War |
+|--------------------------|-----|-----|-----|
