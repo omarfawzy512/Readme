@@ -94,5 +94,23 @@ each file in it.
 – Some files change on a given checkin, some do not.
 – More redundancy, but faster.
 
-![Tracking files](1.png)
+![1](1.png)
+
+In your local copy on git files can be
+– In your local repo  (committed)
+
+ Checked out and modified,
+– but not yet committed (working copy)
+
+In a "staging" area
+– Staged files are ready to be committed.
+
+**A commit saves a snapshot of all staged state.*
+
+![2](2.png)
+
+
+# Basic Git workflow
+
+
 
