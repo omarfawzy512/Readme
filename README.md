@@ -30,23 +30,41 @@ Compare your team's performance against industry standards and identify areas fo
 
 # Deployment Frequency
 
-## -Deliver Value Faster
+## - Deliver Value Faster
 Deploying frequently enables quicker iteration, user feedback, and faster time to market.
 
-## -Increase Agility
+## - Increase Agility
 Continuous deployment enables teams to respond rapidly to changing market demands and customer needs.
 
 
 # Lead Time for Changes
 
-## -Automate Deployment Pipelines
+## - Automate Deployment Pipelines
 
 Streamline the process from code commit to production, reducing manual handoffs and ensuring smooth delivery.
 
-## -Reduce Waste
+## - Reduce Waste
 
 Identify and eliminate bottlenecks in the software delivery process to minimize lead time and increase efficiency.
 
-## -Improve Collaboration
+## - Improve Collaboration
 
 Enable cross-functional teams to work together seamlessly, accelerating the time it takes to bring new features to customers.
+
+# Change Fail Rate
+
+## -Testing & Quality Assurance
+
+Implement comprehensive testing strategies to catch issues before changes are deployed.
+
+## - Code Reviews & Pair Programming
+
+Encourage code reviews and collaboration to identify potential pitfalls and improve code quality.
+
+## - Continuous Improvement
+
+Regularly evaluate and optimize your development processes to reduce the chance of failed changes.
+
+
+| Travis | Deb | RPM | War |
+|--------|-----|-----|-----|
