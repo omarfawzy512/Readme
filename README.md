@@ -132,4 +132,15 @@ A branch is a version of the repository that diverges from the main working proj
 ![git-branch](git-branch.png)
 
 
+# The Operations that can be performed on a branch:**
+
+Create Branch
+Syntax:
+**$ git branch  <branch name>**
+List Branch
+Syntax:
+**$ git branch --list   or git branch**
+Delete Branch
+Syntax:
+**$ git branch -d<branch name>**
 
