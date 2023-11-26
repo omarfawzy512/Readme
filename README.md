@@ -94,7 +94,7 @@ each file in it.
 – Some files change on a given checkin, some do not.
 – More redundancy, but faster.
 
-![trackedbyGit](trackedbyGit.png)
+![tracked-bygit](tracked-bygit.png)
 
 In your local copy on git files can be
 – In your local repo  (committed)
@@ -118,7 +118,7 @@ In a "staging" area
 
 **Commit** which takes the files in the staging area and stores that snapshot permanently to your Git directory.
 
-![Git-workflow](Git-workflow.png)
+![git-workflow](git-workflow.png)
 
 **In Git** each user has their own copy of the repo, and commits changes to their local copy of the repo before pushing to the central server.
 So Git generates a unique SHA-1 hash **(40 character string of hex digits)** for every commit.
