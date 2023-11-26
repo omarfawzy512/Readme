@@ -94,7 +94,7 @@ each file in it.
 – Some files change on a given checkin, some do not.
 – More redundancy, but faster.
 
-![tracked-bygit](tracked-bygit.png)
+![tracked-by-git](tracked-by-git.png)
 
 In your local copy on git files can be
 – In your local repo  (committed)
@@ -135,12 +135,20 @@ A branch is a version of the repository that diverges from the main working proj
 # The Operations that can be performed on a branch:**
 
 Create Branch
+
 Syntax:
+
 **$ git branch  <branch name>**
+
 List Branch
+
 Syntax:
+
 **$ git branch --list   or git branch**
+
 Delete Branch
+
 Syntax:
+
 **$ git branch -d<branch name>**
 
