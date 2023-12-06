@@ -19,37 +19,24 @@ The developers can perform many operations with the remote server. These operati
 
 ## To Check your Remote
 
-- To check the configuration of the remote server, run the git remote command. The git remote command allows accessing the connection between remote and local. If you want to see the original existence of your cloned repository, use the git remote command. It can be used as:
+To check the configuration of the remote server, run the git remote command. The git remote command allows accessing the connection between remote and local. If you want to see the original existence of your cloned repository, use the git remote command. It can be used as:
 
 **git remote**
 
 The given command is providing the remote name as the origin. **Origin** is the default name for the remote server, which is given by Git.
   
-- Git remote supports a specific option -v to show the URLs that Git has stored as a short name. These short names are used during the reading and write operation. Here, -v stands for verbose. We can use --verbose in place of -v. It is used as:
+Git remote supports a specific option -v to show the URLs that Git has stored as a short name. These short names are used during the reading and write operation. Here, -v stands for verbose. We can use --verbose in place of -v. It is used as:
 
 **git remote -v** 
 
 The above output is providing available remote connections. If a repository contains more than one remote connection, this command will list them all.
 
 
+**Git Remote Add** When we fetch a repository implicitly, git adds a remote for the repository. Also, we can explicitly add a remote for a repository. We can add a remote as a shot nickname or short name. To add remote as a short name, follow the below command:
 
-This creates a hidden folder, .git, which contains the plumbing needed for Git to work.
-Next, check what files Git will add to your new repository; this step is worth special care:
+ **git remote add <short name><remote URL>**
 
-**git status**
 
-If all files in the list should be shared with everyone who has access to the repository, a single
-command will add everything in your current directory and its subdirectories:
-
-**git add .**
-
-This will "stage" all files to be added to version control, preparing them to be committed in your
-first commit.
-For files that you want never under version control, create and populate a file named .gitignore
-before running the add command.
-Commit all the files that have been added, along with a commit message:
-
-**git commit -m "Initial commit"**
 
 To add a new remote, use the git remote add command on the terminal, in the directory your
 repository is stored at.
