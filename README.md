@@ -4,7 +4,7 @@ In Git, the term remote is concerned with the remote repository. It is a shared 
 
 The developers can perform many operations with the remote server. These operations can be a clone, fetch, push, pull, and more. Consider the below image:
 
-![git-remote.png]git-remote.png)
+![git-remote.png](git-remote.png)
 
 ## The benefits of  Git Remote:
 • git remote  lets you create, view, and delete connections to other repositories.
@@ -62,6 +62,51 @@ Same as the above command, but only fetch the specified branch.
 
 A power move which fetches all registered remotes and their branches:
 
+**Git push**
+
+The git push command is used to upload local repository content to a remote repository. Pushing is how you transfer commits from your local repository to a remote repo. 
+
+
+**git push <remote> <branch>**
+
+Push the specified branch to , along with all of the necessary commits and internal objects. This creates a local branch in the destination repository. To prevent you from overwriting commits, Git won’t let you push when it results in a non-fast-forward merge in the destination repository.
+
+**git push <remote> --force**
+
+Same as the above command, but force the push even if it results in a non-fast-forward merge. Do not use the --force flag unless you’re absolutely sure you know what you’re doing.
+
+Push all of your local branches to the specified remote.
+
+**git push <remote> --tags**
+
+Tags are not automatically pushed when you push a branch or use the --all option. The --tags flag sends all of your local tags to the remote repository.
+
+**Git pull**
+
+The git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match that content. Merging remote upstream changes into your local repository is a common task in Git-based collaboration work flows. The git pull command is actually a combination of two other commands, git fetch followed by git merge.
+
+**git pull <remote>**
+
+Fetch the specified remote’s copy of the current branch and immediately merge it into the local copy. This is the same as git fetch ＜remote＞ followed by git merge origin/＜current-branch＞.
+
+**git pull --no-commit <remote>**
+
+Similar to the default invocation, fetches the remote content but does not create a new merge commit.
+
+**git pull --rebase <remote>**
+
+Same as the previous pull Instead of using git merge to integrate the remote branch with the local one, use git rebase.
+
+**git pull --verbose**
+
+Gives verbose output during a pull which displays the content being downloaded and the merge details.
+
+
+## Git merge ##
+
+**How it works**
+
+Git merge will combine multiple sequences of commits into one unified history. In the most frequent use cases, git merge is used to combine two branches.  git merge takes two commit pointers, usually the branch tips, and will find a common base commit between them. Once Git finds a common base commit it will create a new "merge commit" that combines the changes of each queued merge commit sequence.
 
 
 
@@ -69,19 +114,6 @@ A power move which fetches all registered remotes and their branches:
 
 
 
-
-
-
-
-**Stage** files, adding snapshots of them to your staging area.
-
-**Commit** which takes the files in the staging area and stores that snapshot permanently to your Git directory.
-
-![git-workflow](git-workflow.png)
-
-**In Git** each user has their own copy of the repo, and commits changes to their local copy of the repo before pushing to the central server.
-So Git generates a unique SHA-1 hash **(40 character string of hex digits)** for every commit.
-– Refers to commits by this ID rather than a version number.
 
 
 # Git Branch
