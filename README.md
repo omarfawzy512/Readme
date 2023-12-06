@@ -7,20 +7,11 @@ The developers can perform many operations with the remote server. These operati
 ![git-remote.png]git-remote.png)
 
 ## The benefits of  Git Remote:
-- git remote  lets you create, view, and delete connections to other repositories.
-- Remote connections are more like bookmarks rather than direct links into otherrepositories. Instead of providing real-time access to another repository
-- by using  git remote we can use as convenient names that can be used to reference a not-so-convenient URL.
-- Git remote  helps you to manage the set of repository whose branches you track.
-- perform the sync operations required to keep the local repository updated as per the central repository and also to update the changes made by the developer in the local repository on the central repository
-
-• Working directory: The area that you will be doing all of your work in (creating, editing,
-deleting, and organizing files)
-
-• Staging area: The area where you will list the changes that you have made to the working
-directory
-
-• Repository: Where Git permanently stores the changes you have made as different
-versions of the project
+• git remote  lets you create, view, and delete connections to other repositories.
+• Remote connections are more like bookmarks rather than direct links into otherrepositories. Instead of providing real-time access to another repository
+• by using  git remote we can use as convenient names that can be used to reference a not-so-convenient URL.
+• Git remote  helps you to manage the set of repository whose branches you track.
+• perform the sync operations required to keep the local repository updated as per the central repository and also to update the changes made by the developer in the local repository on the central repository
 
 ## Create your first repository, then add and commit files
 At the command line, first verify that you have Git installed:
