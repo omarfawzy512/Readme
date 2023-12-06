@@ -17,21 +17,14 @@ The developers can perform many operations with the remote server. These operati
 
 • perform the sync operations required to keep the local repository updated as per the central repository and also to update the changes made by the developer in the local repository on the central repository
 
-## Create your first repository, then add and commit files
-At the command line, first verify that you have Git installed:
-On all operating systems:
+## To Check your Remote
+To check the configuration of the remote server, run the git remote command. The git remote command allows accessing the connection between remote and local. If you want to see the original existence of your cloned repository, use the git remote command. It can be used as:
 
- **git --version**  
+**git remote**
 
- On UNIX-like operating systems:
- 
-  **which git**
+The given command is providing the remote name as the origin. **Origin** is the default name for the remote server, which is given by Git.
   
-After installing Git, configure your username and email address as below . Do this before making a commit.
-– git config --global user.name "Bugs Bunny"
-– git config --global user.email bugs@gmail.com
-Once Git is installed, navigate to the directory you want to place under version control and create
-an empty Git repository:
+
 
 **git init**
 
