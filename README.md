@@ -18,15 +18,20 @@ The developers can perform many operations with the remote server. These operati
 • perform the sync operations required to keep the local repository updated as per the central repository and also to update the changes made by the developer in the local repository on the central repository
 
 ## To Check your Remote
-To check the configuration of the remote server, run the git remote command. The git remote command allows accessing the connection between remote and local. If you want to see the original existence of your cloned repository, use the git remote command. It can be used as:
+
+- To check the configuration of the remote server, run the git remote command. The git remote command allows accessing the connection between remote and local. If you want to see the original existence of your cloned repository, use the git remote command. It can be used as:
 
 **git remote**
 
 The given command is providing the remote name as the origin. **Origin** is the default name for the remote server, which is given by Git.
   
+- Git remote supports a specific option -v to show the URLs that Git has stored as a short name. These short names are used during the reading and write operation. Here, -v stands for verbose. We can use --verbose in place of -v. It is used as:
+
+**git remote -v** 
+
+The above output is providing available remote connections. If a repository contains more than one remote connection, this command will list them all.
 
 
-**git init**
 
 This creates a hidden folder, .git, which contains the plumbing needed for Git to work.
 Next, check what files Git will add to your new repository; this step is worth special care:
