@@ -51,12 +51,15 @@ The git fetch command downloads commits, files, and refs from a remote repositor
 When downloading content from a remote repo, git pull and git fetch commands are available to accomplish the task. You can consider git fetch the 'safe' version of the two commands. It will download the remote content but not update your local repo's it will download the remote content for the active local branch and immediately execute **git merge** to create a merge commit for the new remote content
 
 **git fetch <remote>**
+
 above command Fetch all of the branches from the repository. This also downloads all of the required commits and files from the other repository.
 
 **git fetch <remote> <branch>**
+
 Same as the above command, but only fetch the specified branch.
 
 **git fetch --all**
+
 A power move which fetches all registered remotes and their branches:
 
 
