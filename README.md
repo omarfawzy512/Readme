@@ -82,6 +82,7 @@ Push all of your local branches to the specified remote.
 Tags are not automatically pushed when you push a branch or use the --all option. The --tags flag sends all of your local tags to the remote repository.
 
 **Git pull**
+![pull.png](pull.png)
 
 The git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match that content. Merging remote upstream changes into your local repository is a common task in Git-based collaboration work flows. The git pull command is actually a combination of two other commands, git fetch followed by git merge.
 
@@ -104,42 +105,54 @@ Gives verbose output during a pull which displays the content being downloaded a
 
 ## Git merge ##
 
+![merge.png](merge.png)
+
 **How it works**
 
 Git merge will combine multiple sequences of commits into one unified history. In the most frequent use cases, git merge is used to combine two branches.  git merge takes two commit pointers, usually the branch tips, and will find a common base commit between them. Once Git finds a common base commit it will create a new "merge commit" that combines the changes of each queued merge commit sequence.
 
 
 
+**Here's a basic usage example:**
+
+**Make sure you are on the branch where you want to merge changes**
+
+**git checkout <destination_branch>**
+
+**Merge changes from another branch into the current branch**
+
+**git merge <source_branch>**
+
+For example, if you have a branch named feature_branch and you want to merge it into main, you would do the following:
+
+**Switch to the main branch**
+
+**git checkout main**
+
+**Merge changes from the feature_branch into main**
+
+**git merge feature_branch**
+
+Git will automatically perform a merge and create a new commit that represents the combination of changes from both branches.
+
+If there are conflicts between the branches ( changes in the same part of the same file) Git will notify you and you'll need to resolve those conflicts manually before completing the merge.
+
+It's important to note that if you're working on a project with others, it's a good practice to regularly update your local branches with changes from the remote repository using git pull before attempting a merge, to ensure that you have the latest changes from other contributors.
+
+Additionally, consider using the --no-ff (no fast-forward) option with git merge to preserve a more explicit branch history. This creates a merge commit even if Git could perform a fast-forward merge, making it clearer when and where branches were merged.
+
+
+**git merge --no-ff <source_branch>**
+
+Always be cautious when performing merges, especially on critical branches like main in a production environment. It's a good practice to review changes and possibly test them before merging to avoid introducing unexpected issues.
 
 
 
 
 
 
-# Git Branch
-
-A branch is a version of the repository that diverges from the main working project. It is a feature available in most modern version control systems. A Git project can have more than one branch. These branches are a pointer to a snapshot of your changes. When you want to add a new feature or fix a bug, you spawn a new branch to summarize your changes. So, it is complex to merge the unstable code with the main code base and also facilitates you to clean up your future history before merging with the main branch.
-
-![git-branch](git-branch.png)
 
 
-# The Operations that can be performed on a branch:**
 
-Create Branch
 
-Syntax:
-
-**$ git branch  <branch name>**
-
-List Branch
-
-Syntax:
-
-**$ git branch --list   or git branch**
-
-Delete Branch
-
-Syntax:
-
-**$ git branch -d<branch name>**
 
