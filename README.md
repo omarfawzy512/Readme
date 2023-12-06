@@ -34,68 +34,41 @@ The above output is providing available remote connections. If a repository cont
 
 **Git Remote Add** When we fetch a repository implicitly, git adds a remote for the repository. Also, we can explicitly add a remote for a repository. We can add a remote as a shot nickname or short name. To add remote as a short name, follow the below command:
 
- **git remote add <short name><remote URL>**
-
-
+**git remote add <short name><remote URL>**
 
 To add a new remote, use the git remote add command on the terminal, in the directory your
 repository is stored at.
 The git remote add command takes two arguments:
 1. A remote name, for example, **origin*
 2. A remote URL, for example, **https://<your-git-service-address>/user/repo.git*
-   
 **git remote add origin https://<your-git-service-address>/owner/repository.git**
 
+## Syncing (git remote)
 
-## Clone a repository
+**Git Fetch**
 
-The git clone command is used to copy an existing Git repository from a server to the local
-machine.
-For example, to clone a GitHub project:
-cd <path where you'd like the clone to create a directory>
+The git fetch command downloads commits, files, and refs from a remote repository into your local repo. Fetching is what you do when you want to see what everybody
+When downloading content from a remote repo, git pull and git fetch commands are available to accomplish the task. You can consider git fetch the 'safe' version of the two commands. It will download the remote content but not update your local repo's it will download the remote content for the active local branch and immediately execute **git merge** to create a merge commit for the new remote content
 
-**git clone https://github.com/username/projectname.git**
+**git fetch <remote>**
+above command Fetch all of the branches from the repository. This also downloads all of the required commits and files from the other repository.
 
-## Ignoring files and directories with a .gitignore file
+**git fetch <remote> <branch>**
+Same as the above command, but only fetch the specified branch.
 
-how to avoid adding unwanted files (or file changes) in a Git repo. There are several ways
- (global or local .gitignore, .git/exclude) but keep in mind Git is managing content, which means: ignoring
-actually ignores a folder content (i.e. files). An empty folder would be ignored by default, since it
-cannot be added anyway.
-You can make Git ignore certain files and directories — that is, exclude them from being tracked
-by Git — by creating one or more **.gitignore files* in your repository.
-
-When a file or directory is ignored, it will not be:
-
-1. tracked by Git
-2. reported by commands such as **git status* or **git diff*
-3. staged with commands such as **git add -A*
-
-Git keeps **"snapshots"** of the entire state of the project.
-– Each checkin version of the overall code has a copy of
-each file in it.
-– Some files change on a given checkin, some do not.
-– More redundancy, but faster.
-
-![tracked-by-git](tracked-by-git.png)
-
-In your local copy on git files can be
-– In your local repo  (committed)
-
- Checked out and modified,
-– but not yet committed (working copy)
-
-In a "staging" area
-– Staged files are ready to be committed.
-
-**A commit saves a snapshot of all staged state.*
-
-![local-operation](local-operation.png)
+**git fetch --all**
+A power move which fetches all registered remotes and their branches:
 
 
-# Basic Git workflow
 
-**Modify** files in your working directory.
+
+
+
+
+
+
+
+
 
 **Stage** files, adding snapshots of them to your staging area.
 
