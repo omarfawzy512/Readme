@@ -1,12 +1,10 @@
-## What is Git
+## Git Remote
 
-Git is a free, distributed version control system which allows programmers to keep track of code
-changes, via "snapshots" (commits), in its current state. Utilizing commits allows programmers to
-test, debug, and create new features collaboratively. All commits are kept in what is known as a
-"Git Repository" that can be hosted on your computer, private servers, or open source websites,
-such at Github.
-Git also allows for users to create new "branches" of the code, which allows different versions of
-the code to live alongside each other.
+In Git, the term remote is concerned with the remote repository. It is a shared repository that all team members use to exchange their changes. A remote repository is stored on a code hosting service like an internal server, GitHub, Subversion, and more. In the case of a local repository, a remote typically does not provide a file tree of the project's current state; as an alternative, it only consists of the .git versioning data.
+
+The developers can perform many operations with the remote server. These operations can be a clone, fetch, push, pull, and more. Consider the below image:
+
+![git-remote.png]git-remote.png)
 
 ## Git has 3 different "areas" for your code:
 
